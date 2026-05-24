@@ -294,7 +294,7 @@ Color Palette:
 | Coral Accent | `#E85A3A` |
 | Cream | `#F8F5EF` |
 
----
+<!-- ---
 
 # 📸 Screenshots
 
@@ -310,7 +310,7 @@ _Add screenshot here_
 ## Member Dashboard
 _Add screenshot here_
 
----
+--- -->
 
 # 🔄 Workflow
 
