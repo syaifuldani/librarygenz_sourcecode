@@ -345,12 +345,7 @@ Activity logged
 
 # 👨‍💻 Developer
 
-Developed by:
-
-**[Nama Kamu]**
-
-Semester 8 Project  
-Information Systems / Informatics
+Developed by: Danz
 
 ---
 
