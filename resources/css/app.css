@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    /* Custom elegant and minimal scrollbar for sidebar */
+    .sidebar-scrollbar::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+
+    .sidebar-scrollbar::-webkit-scrollbar-track {
+        background: #1E2736; /* navy-800 (sidebar background) */
+    }
+
+    .sidebar-scrollbar::-webkit-scrollbar-thumb {
+        background: #313F54; /* navy-700 (slightly lighter thumb) */
+        border-radius: 9999px; /* smooth border radius */
+        border: 1px solid #1E2736; /* padding offset simulation */
+    }
+
+    .sidebar-scrollbar::-webkit-scrollbar-thumb:hover {
+        background: #EB7057; /* coral-400 (subtle coral on hover) */
+    }
+
+    /* Firefox support */
+    .sidebar-scrollbar {
+        scrollbar-width: thin;
+        scrollbar-color: #313F54 #1E2736; /* thumb track */
+    }
+}
